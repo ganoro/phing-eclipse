@@ -7,8 +7,8 @@
   <packaging>pom</packaging>
   <modules>
     <module>org.ganoro.phing.core</module>
-    <module>org.ganoro.phing.core</module>
-    <module>org.ganoro.phing.core</module>
+    <module>org.ganoro.phing.launching</module>
+    <module>org.ganoro.phing.ui</module>
     <module>org.ganoro.phing-feature</module>
   </modules>
 
