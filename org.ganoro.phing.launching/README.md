@@ -1,0 +1,1 @@
+Eclipse support to edit and run phing build scripts
