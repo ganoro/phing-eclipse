@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Phing UI Plugin
+Bundle-SymbolicName: org.ganoro.phing.ui; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.ganoro.phing.ui.PhingUi
+Bundle-Vendor: Roy Ganor
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors,
+ org.eclipse.core.resources,
+ org.eclipse.debug.ui,
+ org.eclipse.php.ui,
+ org.eclipse.ui.ide,
+ org.eclipse.ui.views,
+ org.ganoro.phing.core,
+ org.eclipse.core.variables,
+ com.ibm.icu,
+ org.eclipse.ui.console,
+ org.eclipse.core.filesystem,
+ org.eclipse.ui.workbench.texteditor,
+ org.eclipse.ui.externaltools,
+ org.ganoro.phing.launching,
+ org.apache.ant
+Bundle-ActivationPolicy: lazy

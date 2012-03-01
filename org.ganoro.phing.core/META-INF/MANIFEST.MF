@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Phing Core
+Bundle-SymbolicName: org.ganoro.phing.core;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.ganoro.phing.core.PhingCore
+Bundle-Vendor: Roy Ganor
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.variables
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: org.ganoro.phing.core
