@@ -5,8 +5,10 @@
       version="1.0.0.qualifier"
       provider-name="Roy Ganor">
 
-   <description url="http://www.example.com/description">
-      [Enter Feature Description here.]
+   <description url="https://github.com/ganoro/phing-eclipse">
+      Eclipse support to edit and run phing build scripts. 
+
+See https://github.com/ganoro/phing-eclipse and www.phing.info/ for more info.
    </description>
 
    <copyright url="http://www.example.com/copyright">

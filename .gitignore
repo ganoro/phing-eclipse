@@ -1,0 +1,4 @@
+.DS_Store
+org.ganoro.phing.core/bin/
+org.ganoro.phing.ui/bin/
+org.ganoro.phing.launching/bin/
