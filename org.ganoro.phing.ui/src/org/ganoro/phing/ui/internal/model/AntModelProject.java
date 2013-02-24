@@ -173,6 +173,7 @@ public class AntModelProject extends Project {
 		Hashtable allProps = super.getProperties();
 		allProps.putAll(getUserProperties());
 		allProps.put("basedir", getBaseDir().getPath()); //$NON-NLS-1$
+		allProps.put("description", getDescription()); //$NON-NLS-1$
 		return allProps;
 	}
 	
@@ -182,6 +183,15 @@ public class AntModelProject extends Project {
 	public void setBaseDir(File baseDir) throws BuildException {
 		super.setBaseDir(baseDir);
 		setNewProperty("basedir", getBaseDir().getPath()); //$NON-NLS-1$
+	}
+
+	
+	/* (non-Javadoc)
+	 * @see org.apache.tools.ant.Project#setDescription(String description)
+	 */
+	public void setDescription(String description) throws BuildException {
+		super.setDescription(description);
+		setNewProperty("description", getDescription()); //$NON-NLS-1$
 	}
 
 	/**
